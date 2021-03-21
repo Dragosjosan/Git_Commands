@@ -7,13 +7,11 @@ git add filename
 git commit -m "Description Message" 
 git checkout -b new # creates branch  "new"
 git checkout master # if master is the name of the master branch
-git merge master
+git merge master # Your are not on your master branch. Merges the master branch into your slave branch. 
 ####
 #For working with Github
 ####
-git init # Initialise git´
-git add . or git add ['filename'] # adds the file into the "Staging area"
-git commit -m "My first File" # commits file with comment  ""
-git remote add origin https://github.com/yourusername/your-repo-name.git
+git remote add origin https://github.com/yourusername/your-repo-name.git # Adding an new remote(link,shortcut) called origin that has this url.
+git remote remove origin # if you want to delete the origin for some reason
 git pull origin master
 git push origin master
