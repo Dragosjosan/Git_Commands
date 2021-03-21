@@ -1,16 +1,19 @@
-rd .git /S/Q # Deletes .git folder
-git init # Initialise git´
-git add . or git add ['filename'] # adds the file into the "Staging area"
-git commit -m "My first File" # commits file with comment  ""
-git remote add origin https://github.com/yourusername/your-repo-name.git
-git pull origin master
-git push origin master
 ####
 #For working locally
 ####
+rd .git /S/Q # Deletes .git folder, if neccesary
 git init
 git add filename
 git commit -m "Description Message" 
 git checkout -b new # creates branch  "new"
 git checkout master # if master is the name of the master branch
 git merge master
+####
+#For working with Github
+####
+git init # Initialise git´
+git add . or git add ['filename'] # adds the file into the "Staging area"
+git commit -m "My first File" # commits file with comment  ""
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git pull origin master
+git push origin master
