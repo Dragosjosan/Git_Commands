@@ -13,5 +13,5 @@ git merge master # Your are not on your master branch. Merges the master branch 
 ####
 git remote add origin https://github.com/yourusername/your-repo-name.git # Adding an new remote(link,shortcut) called origin that has this url.
 git remote remove origin # if you want to delete the origin for some reason
+git push -u origin master # pushes all of our commits to the origin (where) the master (all the commits)
 git pull origin master
-git push origin master
