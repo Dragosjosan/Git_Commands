@@ -15,3 +15,9 @@ git remote add origin https://github.com/yourusername/your-repo-name.git # Addin
 git remote remove origin # if you want to delete the origin for some reason
 git push -u origin master # pushes all of our commits to the origin (where) the master (all the commits)
 git pull origin master
+git push origin master
+git checkout -t origin/main # links main to github main through origin
+git reset --hard # undo until last commit
+git branch -d master # deletes local branch master
+git push origin :master # deletes master branch from origin
+
