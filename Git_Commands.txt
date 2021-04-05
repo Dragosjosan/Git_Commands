@@ -17,3 +17,7 @@ git commit -m "My first File" # commits file with comment  ""
 git remote add origin https://github.com/yourusername/your-repo-name.git
 git pull origin master
 git push origin master
+git checkout -t origin/main # links main to github main through origin
+git reset --hard # undo until last commit
+git branch -d master # deletes local branch master
+git push origin :master # deletes master branch from origin
